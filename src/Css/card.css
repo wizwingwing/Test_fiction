@@ -1,0 +1,67 @@
+.Card.Container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.card-contain{
+    margin: 1rem;
+    position: relative;
+    width: 15%;
+}
+.card-discount{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 20%;
+    border-radius: 5px;
+}
+.text-card{
+    position: relative;
+}
+
+/* Image */
+.card-image img{
+    width: 100%; 
+    border-radius: 5px;
+}
+/* Image */
+
+/* Text */
+.card-discount p{
+    color: #fff;
+}
+.card-header p{
+    font-size: 1rem;
+}
+.card-body p{
+    color: rgb(122, 113, 113);
+}
+.card-price p{
+    text-decoration: line-through;
+    color: rgb(122, 113, 113);
+}
+.card-coat p{
+    color: red;
+}
+
+/* Text */
+/* Button */
+.card-buy button{
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    text-decoration: none;
+    background-color: red;
+    font-size: 16px;
+    color: #fff;
+    width: 3.5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+}
+/* Button */
